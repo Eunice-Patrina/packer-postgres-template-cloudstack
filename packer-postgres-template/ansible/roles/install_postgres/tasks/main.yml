@@ -1,0 +1,4 @@
+﻿---
+- name: Install PostgreSQL placeholder
+  debug:
+    msg: "Install PostgreSQL steps go here"

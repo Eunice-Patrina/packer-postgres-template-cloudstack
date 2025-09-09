@@ -1,0 +1,4 @@
+﻿---
+- name: Setup disks placeholder
+  debug:
+    msg: "Disk setup steps go here"

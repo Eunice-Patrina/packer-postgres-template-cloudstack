@@ -1,0 +1,4 @@
+﻿---
+- name: Configure PostgreSQL placeholder
+  debug:
+    msg: "Configuration steps go here"

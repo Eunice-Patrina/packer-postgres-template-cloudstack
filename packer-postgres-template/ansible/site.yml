@@ -1,0 +1,8 @@
+﻿- name: Configure Rocky 8 PostgreSQL Donor VM
+  hosts: all
+  become: true
+  roles:
+    - install_postgres
+    - setup_disks
+    - configure_postgres
+    - bootstrap_pg

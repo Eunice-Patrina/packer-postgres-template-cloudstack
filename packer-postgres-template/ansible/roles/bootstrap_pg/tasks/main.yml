@@ -1,0 +1,4 @@
+﻿---
+- name: Bootstrap PostgreSQL placeholder
+  debug:
+    msg: "Bootstrap steps go here"
